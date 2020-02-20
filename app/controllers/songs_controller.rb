@@ -31,7 +31,7 @@ class SongsController < ApplicationController
       @song = Song.new(artist_id: params[:artist_id])
       @artists = Artist.all
     end
-    
+
   end
 
 
